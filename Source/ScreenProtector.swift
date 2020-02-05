@@ -8,27 +8,27 @@
 
 import UIKit
 
-class ScreenProtector {
+open class ScreenProtector {
     
-    static let shared = ScreenProtector()
+    public static let shared = ScreenProtector()
     
     var enabled : Bool = true
     
     var view : UIView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
     var window : UIWindow = UIApplication.shared.windows.last!
 
-    func prepare(with view: UIView) {
+    open func prepare(with view: UIView) {
         self.view = view
         prepare()
     }
     
-    func prepare(){
+    open func prepare(){
         registerCapturedRecord()
         registerScreenshotDetect()
         loadStyle()
     }
     
-    func setEnabled(enabled: Bool) {
+    open func setEnabled(enabled: Bool) {
         self.enabled = enabled
     }
     
@@ -36,12 +36,12 @@ class ScreenProtector {
         view.backgroundColor = .lightGray
     }
     
-    func showProtector(){
+    open func showProtector(){
         view.alpha = 1
         window.rootViewController?.view.addSubview(view)
     }
     
-    func hideProtector(){
+    open func hideProtector(){
         UIView.animate(withDuration: 0.2, animations: {
             self.view.alpha = 0
         }) { (finish) in
@@ -49,7 +49,7 @@ class ScreenProtector {
         }
     }
     
-    func registerCapturedRecord(){
+    private func registerCapturedRecord(){
         NotificationCenter.default.addObserver(
             forName: UIScreen.capturedDidChangeNotification,
             object: nil,
@@ -62,7 +62,7 @@ class ScreenProtector {
         }
     }
     
-    func registerScreenshotDetect(){
+    private func registerScreenshotDetect(){
         NotificationCenter.default.addObserver(
             forName: UIApplication.userDidTakeScreenshotNotification,
             object: nil,

@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Example
+//  ScreenProtector
 //
-//  Created by jvictorio on 04/02/2020.
+//  Created by jvictorio on 05/02/2020.
 //  Copyright © 2020 jvictorio. All rights reserved.
 //
 
