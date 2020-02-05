@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5D1F97AA09CC628A8A47DA88D672E5 /* ScreenProtector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E80B8B0619013DBB463F5A19A2770 /* ScreenProtector-dummy.m */; };
+		7975932524E73D6E12D562BA2CA2804C /* ScreenProtector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD1AA63F162BBD92EFA1AF519333E2 /* ScreenProtector.swift */; };
+		8FB353C69F2882FC2B95AD3894D21223 /* Pods-ScreenProtectorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFAD4004418AD0C28A529ABCC0B273 /* Pods-ScreenProtectorExample-dummy.m */; };
+		CDB569A2EF41E732B83BF0986C70BD62 /* Pods-ScreenProtectorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5E1DC86523398B0AD9E8B3ADC5B54A /* Pods-ScreenProtectorExample-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6C88518412749725011468108EA8ECB /* ScreenProtector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE011DECF1796522AAAE0F3DD572562 /* ScreenProtector-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C191B851AD276EDFE9BDC602924008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FA418DC22DF937D25D37FB10104D75;
+			remoteInfo = ScreenProtector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0701D00C95D2AAFDB3C60737763E67E6 /* Pods-ScreenProtectorExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenProtectorExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		103197EB09079D0F0C63C2804826BF1B /* ScreenProtector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenProtector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		111DC09EA1119B17EBFF8E24477F5962 /* Pods-ScreenProtectorExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenProtectorExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		249A266ED42E014CC40951A2361ADC2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48B183B8B0277DBE9A984E9DA3A87C63 /* ScreenProtector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenProtector.modulemap; sourceTree = "<group>"; };
+		617DEC4CCDEF45BFA820270A7CA3AE60 /* ScreenProtector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenProtector-prefix.pch"; sourceTree = "<group>"; };
+		6460DE61218564DCC638FED1C23EC3AD /* ScreenProtector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenProtector.xcconfig; sourceTree = "<group>"; };
+		6FFFAD4004418AD0C28A529ABCC0B273 /* Pods-ScreenProtectorExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenProtectorExample-dummy.m"; sourceTree = "<group>"; };
+		712EEE54980F6B10B605F5726279D336 /* Pods-ScreenProtectorExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenProtectorExample.modulemap"; sourceTree = "<group>"; };
+		752278AC84FC43552540D9FF4E54BE4B /* Pods-ScreenProtectorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenProtectorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		75AB5A961048F20C44F994E5FB28BC3D /* libPods-ScreenProtectorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScreenProtectorExample.a"; path = "libPods-ScreenProtectorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AD1AA63F162BBD92EFA1AF519333E2 /* ScreenProtector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenProtector.swift; path = Source/ScreenProtector.swift; sourceTree = "<group>"; };
+		9C88F8FA2E6FD25BC23046D60507B067 /* libScreenProtector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libScreenProtector.a; path = libScreenProtector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5E1DC86523398B0AD9E8B3ADC5B54A /* Pods-ScreenProtectorExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenProtectorExample-umbrella.h"; sourceTree = "<group>"; };
+		CBE011DECF1796522AAAE0F3DD572562 /* ScreenProtector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenProtector-umbrella.h"; sourceTree = "<group>"; };
+		D1A150833F2AFA96E301D8D6D18BB1EC /* Pods-ScreenProtectorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenProtectorExample.release.xcconfig"; sourceTree = "<group>"; };
+		ECB6AB651E497A137DB9F4BCC8120114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F57E80B8B0619013DBB463F5A19A2770 /* ScreenProtector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenProtector-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EF9458DF68A05250266817EEAE1E18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05D06A797097A46D2F69F8ACC7D12AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AD00DB5A824C6B588C8CD0031CAC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AB5A961048F20C44F994E5FB28BC3D /* libPods-ScreenProtectorExample.a */,
+				9C88F8FA2E6FD25BC23046D60507B067 /* libScreenProtector.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333FC8318FBB059C79FB02A156FADA40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F766A4A62ABCCEFD7FC32289E8AB8EE0 /* Pods-ScreenProtectorExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FCAB033239B67875761AF342958B6A6 /* ScreenProtector */ = {
+			isa = PBXGroup;
+			children = (
+				96AD1AA63F162BBD92EFA1AF519333E2 /* ScreenProtector.swift */,
+				C06E1D1C819087036674CF88A87A8DD9 /* Pod */,
+				736ED4015B1232A9AA4C9D151D90DB78 /* Support Files */,
+			);
+			name = ScreenProtector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		43C573C9238449B937EFC157F8615565 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB033239B67875761AF342958B6A6 /* ScreenProtector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		736ED4015B1232A9AA4C9D151D90DB78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48B183B8B0277DBE9A984E9DA3A87C63 /* ScreenProtector.modulemap */,
+				6460DE61218564DCC638FED1C23EC3AD /* ScreenProtector.xcconfig */,
+				F57E80B8B0619013DBB463F5A19A2770 /* ScreenProtector-dummy.m */,
+				617DEC4CCDEF45BFA820270A7CA3AE60 /* ScreenProtector-prefix.pch */,
+				CBE011DECF1796522AAAE0F3DD572562 /* ScreenProtector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "ScreenProtector/Pods/Target Support Files/ScreenProtector";
+			sourceTree = "<group>";
+		};
+		C06E1D1C819087036674CF88A87A8DD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6AB651E497A137DB9F4BCC8120114 /* LICENSE */,
+				249A266ED42E014CC40951A2361ADC2C /* README.md */,
+				103197EB09079D0F0C63C2804826BF1B /* ScreenProtector.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				43C573C9238449B937EFC157F8615565 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				16AD00DB5A824C6B588C8CD0031CAC92 /* Products */,
+				333FC8318FBB059C79FB02A156FADA40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F766A4A62ABCCEFD7FC32289E8AB8EE0 /* Pods-ScreenProtectorExample */ = {
+			isa = PBXGroup;
+			children = (
+				712EEE54980F6B10B605F5726279D336 /* Pods-ScreenProtectorExample.modulemap */,
+				0701D00C95D2AAFDB3C60737763E67E6 /* Pods-ScreenProtectorExample-acknowledgements.markdown */,
+				111DC09EA1119B17EBFF8E24477F5962 /* Pods-ScreenProtectorExample-acknowledgements.plist */,
+				6FFFAD4004418AD0C28A529ABCC0B273 /* Pods-ScreenProtectorExample-dummy.m */,
+				9E5E1DC86523398B0AD9E8B3ADC5B54A /* Pods-ScreenProtectorExample-umbrella.h */,
+				752278AC84FC43552540D9FF4E54BE4B /* Pods-ScreenProtectorExample.debug.xcconfig */,
+				D1A150833F2AFA96E301D8D6D18BB1EC /* Pods-ScreenProtectorExample.release.xcconfig */,
+			);
+			name = "Pods-ScreenProtectorExample";
+			path = "Target Support Files/Pods-ScreenProtectorExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A2298B4A36B94FCDB904ECC12AD0D8A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C88518412749725011468108EA8ECB /* ScreenProtector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FE257FC26B9E2CF7FD33005DE2E4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB569A2EF41E732B83BF0986C70BD62 /* Pods-ScreenProtectorExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51FA418DC22DF937D25D37FB10104D75 /* ScreenProtector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F477DF816B8ECA9E0290C5F2B08EFDB3 /* Build configuration list for PBXNativeTarget "ScreenProtector" */;
+			buildPhases = (
+				A2298B4A36B94FCDB904ECC12AD0D8A9 /* Headers */,
+				293BA389AC19AED4167FA37B2AA11D13 /* Sources */,
+				7EF9458DF68A05250266817EEAE1E18A /* Frameworks */,
+				DDB33BA57093CB6E8C6FA632394AA190 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenProtector;
+			productName = ScreenProtector;
+			productReference = 9C88F8FA2E6FD25BC23046D60507B067 /* libScreenProtector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57476D9BCB7322E23E608FD67575D998 /* Pods-ScreenProtectorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2716C24AF34F18EFD2D1D6134FAA39F1 /* Build configuration list for PBXNativeTarget "Pods-ScreenProtectorExample" */;
+			buildPhases = (
+				A3FE257FC26B9E2CF7FD33005DE2E4C9 /* Headers */,
+				D09E386197284D23361688003C74BE07 /* Sources */,
+				B05D06A797097A46D2F69F8ACC7D12AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9444DB7B92CA4C71A0A85C6CA4B9F0F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenProtectorExample";
+			productName = "Pods-ScreenProtectorExample";
+			productReference = 75AB5A961048F20C44F994E5FB28BC3D /* libPods-ScreenProtectorExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16AD00DB5A824C6B588C8CD0031CAC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57476D9BCB7322E23E608FD67575D998 /* Pods-ScreenProtectorExample */,
+				51FA418DC22DF937D25D37FB10104D75 /* ScreenProtector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDB33BA57093CB6E8C6FA632394AA190 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ScreenProtector/ScreenProtector.modulemap",
+				"${PODS_ROOT}/Headers/Public/ScreenProtector/ScreenProtector-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ScreenProtector-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ScreenProtector/ScreenProtector.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ScreenProtector/ScreenProtector-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293BA389AC19AED4167FA37B2AA11D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5D1F97AA09CC628A8A47DA88D672E5 /* ScreenProtector-dummy.m in Sources */,
+				7975932524E73D6E12D562BA2CA2804C /* ScreenProtector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09E386197284D23361688003C74BE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB353C69F2882FC2B95AD3894D21223 /* Pods-ScreenProtectorExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9444DB7B92CA4C71A0A85C6CA4B9F0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScreenProtector;
+			target = 51FA418DC22DF937D25D37FB10104D75 /* ScreenProtector */;
+			targetProxy = 20C191B851AD276EDFE9BDC602924008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2982CA9E9F5DD09F38381A91AD5ED40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752278AC84FC43552540D9FF4E54BE4B /* Pods-ScreenProtectorExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenProtectorExample/Pods-ScreenProtectorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A71A8A29F5B47379AA3B186FDDDFD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6460DE61218564DCC638FED1C23EC3AD /* ScreenProtector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenProtector/ScreenProtector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ScreenProtector/ScreenProtector.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ScreenProtector;
+				PRODUCT_NAME = ScreenProtector;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C0C293F12E94DB077C63687583DBA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A150833F2AFA96E301D8D6D18BB1EC /* Pods-ScreenProtectorExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenProtectorExample/Pods-ScreenProtectorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		938C58812BFD54DD5B01C84044647494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6460DE61218564DCC638FED1C23EC3AD /* ScreenProtector.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenProtector/ScreenProtector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ScreenProtector/ScreenProtector.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ScreenProtector;
+				PRODUCT_NAME = ScreenProtector;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2716C24AF34F18EFD2D1D6134FAA39F1 /* Build configuration list for PBXNativeTarget "Pods-ScreenProtectorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2982CA9E9F5DD09F38381A91AD5ED40D /* Debug */,
+				7C0C293F12E94DB077C63687583DBA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F477DF816B8ECA9E0290C5F2B08EFDB3 /* Build configuration list for PBXNativeTarget "ScreenProtector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A71A8A29F5B47379AA3B186FDDDFD85 /* Debug */,
+				938C58812BFD54DD5B01C84044647494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

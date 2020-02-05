@@ -1,2 +1,3 @@
 # ScreenProtector
-Librería para proteger la app cuando entra en background
+
+You can check the library documentation here: https://github.com/jmvictorio/ScreenProtector

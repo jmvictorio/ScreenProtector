@@ -1,0 +1,16 @@
+PODS:
+  - ScreenProtector (1.0.0)
+
+DEPENDENCIES:
+  - ScreenProtector (from `..`)
+
+EXTERNAL SOURCES:
+  ScreenProtector:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  ScreenProtector: 2d177614c49ae360bcc947383165aef7c0c52f87
+
+PODFILE CHECKSUM: 41389b92c5de810be5ac015ff8203c4f51d170a3
+
+COCOAPODS: 1.8.4

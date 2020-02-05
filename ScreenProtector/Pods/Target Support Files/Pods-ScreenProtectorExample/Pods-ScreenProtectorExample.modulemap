@@ -1,0 +1,6 @@
+module Pods_ScreenProtectorExample {
+  umbrella header "Pods-ScreenProtectorExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
