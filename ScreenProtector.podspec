@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'ScreenProtector'
   s.version          = '1.0.0'
   s.summary          = 'iOS library for protecter screen'
-  s.description      = 'iOS library for protecter screen'
+  s.description      = 'iOS library to protect content when background and foreground starts'
   s.homepage         = 'https://github.com/jmvictorio'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jesús Victorio' => 'jesusvicmar@gmail.com',  }
@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*.{swift}'
 
-  s.libraries = 'z', 'c++'
   s.frameworks = 'Foundation', 'UIKit'
 
 end
