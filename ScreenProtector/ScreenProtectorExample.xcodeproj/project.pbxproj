@@ -46,14 +46,13 @@
 				5C0F0DAB3C6AC651EBED78F8 /* Pods-ScreenProtectorExample.debug.xcconfig */,
 				AC3C335B84A3CFD6FD8D2B3F /* Pods-ScreenProtectorExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		ADCED17223EB1A3F009DBBDF = {
 			isa = PBXGroup;
 			children = (
-				ADCED17D23EB1A3F009DBBDF /* ScreenProtector */,
+				ADCED17D23EB1A3F009DBBDF /* ScreenProtectorExample */,
 				ADCED17C23EB1A3F009DBBDF /* Products */,
 				4C3622274A1CE5D5F354BE8A /* Pods */,
 				DB2DB490F84073A84A974C0C /* Frameworks */,
@@ -68,7 +67,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADCED17D23EB1A3F009DBBDF /* ScreenProtector */ = {
+		ADCED17D23EB1A3F009DBBDF /* ScreenProtectorExample */ = {
 			isa = PBXGroup;
 			children = (
 				ADCED17E23EB1A3F009DBBDF /* AppDelegate.swift */,
@@ -78,7 +77,7 @@
 				ADCED18923EB1A40009DBBDF /* LaunchScreen.storyboard */,
 				ADCED18C23EB1A40009DBBDF /* Info.plist */,
 			);
-			path = ScreenProtector;
+			path = ScreenProtectorExample;
 			sourceTree = "<group>";
 		};
 		DB2DB490F84073A84A974C0C /* Frameworks */ = {
@@ -333,7 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScreenProtector/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ScreenProtectorExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScreenProtector/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ScreenProtectorExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
