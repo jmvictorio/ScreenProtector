@@ -1,9 +1,8 @@
 //
 //  ScreenProtector.swift
-//  Example
 //
-//  Created by jvictorio on 17/12/2019.
-//  Copyright © 2019 jvictorio. All rights reserved.
+//  Created by jvictorio on 05/02/2020.
+//  Copyright © 2020 jvictorio. All rights reserved.
 //
 
 import UIKit
@@ -33,7 +32,8 @@ open class ScreenProtector {
     }
     
     private func loadStyle(){
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .gray
+        view.alpha = 1
     }
     
     open func showProtector(){
