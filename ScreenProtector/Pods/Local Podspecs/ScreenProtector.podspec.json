@@ -1,0 +1,32 @@
+{
+  "name": "ScreenProtector",
+  "version": "1.0.0",
+  "summary": "iOS library for protecter screen",
+  "description": "iOS library for protecter screen",
+  "homepage": "https://github.com/jmvictorio",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jesús Victorio": "jesusvicmar@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:jmvictorio/ScreenProtector.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Source/*.{swift}",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "swift_version": "5.0"
+}
